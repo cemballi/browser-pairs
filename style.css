@@ -25,7 +25,7 @@ body {
   left: 1;
   bottom: 1;
   right: 1;
-  background: blue with black stripes;
+  background: blue black ;
   width: 255px;
   height: 420px;
   margin: auto;
@@ -152,7 +152,7 @@ body {
 /* :hover styles are applied when the user's mouse hovers over the element */
 .button:hover {
   background: #F26522 !important;
-  color: #fff;
+  color: black;
   cursor: pointer;
 }
 
@@ -205,11 +205,11 @@ body {
   padding: 10px;
   width: 200px;
   border: 8px solid #DA4930;
-  text-decoration:none;
+  text-decoration:
 }
 
 #result {
-  background: white;
+  background: blue;
   margin: 150px auto 0;
   width: 60%;
   border-radius: 5px;
@@ -243,12 +243,12 @@ body {
   -webkit-transform: rotate3d(0,1,0,-180deg);
   -moz-transform: rotate3d(0,1,0,-180deg);
   z-index: 8;
-  border-radius: 4px;
+  border-radius: 8px;
 }
 .card:hover .face, .card-flipped .face {
-  box-shadow: 0 0 10px #ccc;
+  box-shadow: 20 20 20px #ccc;
 }
-.card-flipped .front {
+.card-flipped .back {
   -webkit-transform: rotate3d(0,1,0,180deg) scale(1.1);
   -moz-transform: rotate3d(0,1,0,180deg) scale(1.1);
   -o-transform: scale(1.1);
