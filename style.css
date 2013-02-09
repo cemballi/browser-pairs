@@ -14,7 +14,7 @@ body {
   background-image: url(images/left.png) no-repeat bottom left fixed;
   background-color: #F26522;
   background-size: auto auto, auto auto, 50px 50px, 50px 50px, auto auto;*/
-  color: #DA4930;
+  color: blue;
   font-family: "Days One", sans-serif;
 }
 
@@ -25,7 +25,7 @@ body {
   left: 0;
   bottom: 0;
   right: 0;
-  background: #001711;
+  background: black;
   width: 255px;
   height: 420px;
   margin: auto;
@@ -45,21 +45,21 @@ body {
   display: block;
   background: #eee;
   width: 100%;
-  float: left;
+  float: bottom;
   box-shadow: inset 0 0 8px #000;
   border-radius: 4px;
   padding: 8px 0;
   height: 14px;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 /* The #reset button and the #gameScore button are in the header bar */
 #reset,
 #gameScore {
   display: block;
-  float: left;
-  text-align: left;
-  padding: 0 0 0 15px;
+  float: right;
+  text-align: bottom;
+  padding: 1 1 1 15px;
 }
 
 #reset {
